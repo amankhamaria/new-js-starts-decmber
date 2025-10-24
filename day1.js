@@ -80,31 +80,35 @@
 
 // ============================
 
-let sum = 0;
-for (let num = 1; num <= 10; num++) {
-  sum = sum + num;
-}
-console.log(sum);
-
+// let sum = 0;
+// for (let num = 1; num <= 10; num++) {
+//   sum = sum + num;
+// }
+// console.log(sum);
 
 // ======================
 
- for (let num = 1; num <= 50; num++) {
-  let isPrime = true;
+//  for (let num = 1; num <= 50; num++) {
+//   let isPrime = true;
 
-  if (num < 2) isPrime = false;
+//   if (num < 2) isPrime = false;
 
-  for (let i = 2; i < num; i++) {
-    if (num % i === 0) {
-      isPrime = false;
-      break;
-    }
-  }
+//   for (let i = 2; i < num; i++) {
+//     if (num % i === 0) {
+//       isPrime = false;
+//       break;
+//     }
+//   }
 
-  if (isPrime) {
-    console.log(num);
-  }
+//   if (isPrime) {
+//     console.log(num);
+//   }
+// }
+
+// ==================================
+
+let str = "deepak";
+
+for (let i = str.length - 1; i >= 0; i = i - 1) {
+  console.log(str[i]);
 }
-
-
-
