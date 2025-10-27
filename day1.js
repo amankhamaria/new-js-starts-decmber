@@ -105,10 +105,24 @@
 //   }
 // }
 
-// ==================================
+// ================= pelindrume code =================
 
-let str = "deepak";
+// let str = "hello world";
 
-for (let i = str.length - 1; i >= 0; i = i - 1) {
+// for (let i = 0 ; i  < str.length;  i++) {
+//   console.log(str[i]);
+// }
+
+
+
+// ========revers me hai===========
+
+let str = "hello world";
+
+for (let i = str.length - 1; i >= 0; i--) {
   console.log(str[i]);
 }
+
+
+
+
