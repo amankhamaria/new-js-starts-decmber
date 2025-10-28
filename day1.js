@@ -86,24 +86,25 @@
 // }
 // console.log(sum);
 
-// ======================
 
-//  for (let num = 1; num <= 50; num++) {
-//   let isPrime = true;
+// ========= chech the prime number hai ya nahi =============
 
-//   if (num < 2) isPrime = false;
+ for (let num = 1; num <= 50; num++) {
+  let isPrime = true;
 
-//   for (let i = 2; i < num; i++) {
-//     if (num % i === 0) {
-//       isPrime = false;
-//       break;
-//     }
-//   }
+  if (num < 2) isPrime = false;
 
-//   if (isPrime) {
-//     console.log(num);
-//   }
-// }
+  for (let i = 2; i < num; i++) {
+    if (num % i === 0) {
+      isPrime = false;
+      break;
+    }
+  }
+
+  if (isPrime) {
+    console.log(num);
+  }
+}
 
 // ================= pelindrume code =================
 
@@ -117,12 +118,22 @@
 
 // ========revers me hai===========
 
-let str = "hello world";
+// let str = "hello world";
 
-for (let i = str.length - 1; i >= 0; i--) {
-  console.log(str[i]);
-}
+// for (let i = str.length - 1; i >= 0; i--) {
+//   console.log(str[i]);
+// }
 
+
+// ==================== CHEK THE PELINDRORME ====================
+// const str  = "malayalam";
+
+// let ismatch = true;
+
+// for (let i = 0; i <=str.length / 2; i = i +1) {
+//   console.log(i);
+
+// }
 
 
 
