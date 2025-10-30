@@ -86,26 +86,6 @@
 // }
 // console.log(sum);
 
-
-// ========= chech the prime number hai ya nahi =============
-
- for (let num = 1; num <= 50; num++) {
-  let isPrime = true;
-
-  if (num < 2) isPrime = false;
-
-  for (let i = 2; i < num; i++) {
-    if (num % i === 0) {
-      isPrime = false;
-      break;
-    }
-  }
-
-  if (isPrime) {
-    console.log(num);
-  }
-}
-
 // ================= pelindrume code =================
 
 // let str = "hello world";
@@ -114,8 +94,6 @@
 //   console.log(str[i]);
 // }
 
-
-
 // ========revers me hai===========
 
 // let str = "hello world";
@@ -123,7 +101,6 @@
 // for (let i = str.length - 1; i >= 0; i--) {
 //   console.log(str[i]);
 // }
-
 
 // ==================== CHEK THE PELINDRORME ====================
 // const str  = "malayalam";
@@ -135,5 +112,49 @@
 
 // }
 
+// ========= chech the prime number hai ya nahi =============
 
+//  for (let num = 1; num <= 100; num++) {
+//   let isPrime = true;
 
+//   if (num < 2) isPrime = false;
+
+//   for (let i = 2; i < num; i++) {
+//     if (num % i === 0) {
+//       isPrime = false;
+//       break;
+//     }
+//   }
+
+//   if (isPrime)
+//    {
+//     console.log(num);
+//   }
+// }
+
+// =============== print each digits of given number =====================
+
+// let num = 1725;
+// let str = num.toString();
+
+// for (let i = str.length - 1; i >= 0; i--) {
+//   console.log(str[i]);
+// }
+
+// =========== print the place value of given value 5271 ==========
+
+// let num = 5271;
+// let str = num.toString();
+// for(let i = 0; i < str.length; i++) {
+//   console.log(str[i]);
+// }
+
+// ================================= print the place value of given value 5271======================
+let num = 5271;
+let str = num.toString();
+
+for (let i = 0; i < str.length; i++) {
+  let digit = Number(str[i]);
+  let placeValue = digit * Math.pow(10, str.length - i - 1);
+  console.log(`Place value of ${digit} is ${placeValue}`);
+}
