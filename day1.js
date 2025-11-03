@@ -151,36 +151,59 @@
 
 // ============== Que 1. Write a JavaScript program to find the sum of digits of a given number.
 
-let num = 1234;
-let sum = 0;
+// let num = 1234;
+// let sum = 0;
 
-while (num > 0) {
-  let digit = num % 10; 
-  sum = sum + digit;   
-  num = Math.floor(num / 10);
+// while (num > 0) {
+//   let digit = num % 10; 
+//   sum = sum + digit;   
+//   num = Math.floor(num / 10);
+// }
+
+// console.log(sum);
+
+
+// Que 2. Write a program that takes a string as input and removes all spaces (both between words and at ends).
+
+let str = "Hello  World from  JS";
+let count = 0;
+
+for (let i = 0; i < str.length; i++) {
+  if (str[i] === " ") {
+    count++;
+  }
 }
 
-// Output
-console.log(sum);
-
-
-//  Que 2. Write a program that takes a string as input and removes all spaces (both between words and at ends).
-
-// let str = " Hello World  from JS ";
-
-// let result = str.replace(/\s+/g, "");  
-
-// console.log("Output:", result);
+console.log("Total spaces:", count);
 
 //===== Que 3. Write a program that counts how many digits are present in a given number.
 
 // let num = 1234567;
 // let count = 0;
 
-// while (num > 0) {
-//   count++;            
-//   num = Math.floor(num / 10);  
+// for (let n = num; n > 0; n = Math.floor(n / 10)) {
+//   count++;
 // }
-// console.log("Total digits:", count);
+
+// console.log(count);
+
+
+//==============  4. Write a JavaScript program that finds the sum of all even digits (0, 2, 4, 6, 8) in a given number.
+
+let num = 1234567890;
+let sum = 0;
+
+for (let n = num; n > 0; n = Math.floor(n / 10)) {
+  let digit = n % 10;
+
+  if (digit % 2 === 0) {
+    sum = sum + digit;
+  }
+}
+
+console.log(sum);
+
+
+
 
 
