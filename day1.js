@@ -140,7 +140,7 @@
 // for (let i = str.length - 1; i >= 0; i--) {
 //   console.log(str[i]);
 // }
-
+ 
 // =========== print the place value of given value 5271 ==========
 
 // let num = 5271;
@@ -149,12 +149,38 @@
 //   console.log(str[i]);
 // }
 
-// ================================= print the place value of given value 5271======================
-let num = 5271;
-let str = num.toString();
+// ============== Que 1. Write a JavaScript program to find the sum of digits of a given number.
 
-for (let i = 0; i < str.length; i++) {
-  let digit = Number(str[i]);
-  let placeValue = digit * Math.pow(10, str.length - i - 1);
-  console.log(`Place value of ${digit} is ${placeValue}`);
+let num = 1234;
+let sum = 0;
+
+while (num > 0) {
+  let digit = num % 10; 
+  sum = sum + digit;   
+  num = Math.floor(num / 10);
 }
+
+// Output
+console.log(sum);
+
+
+//  Que 2. Write a program that takes a string as input and removes all spaces (both between words and at ends).
+
+// let str = " Hello World  from JS ";
+
+// let result = str.replace(/\s+/g, "");  
+
+// console.log("Output:", result);
+
+//===== Que 3. Write a program that counts how many digits are present in a given number.
+
+// let num = 1234567;
+// let count = 0;
+
+// while (num > 0) {
+//   count++;            
+//   num = Math.floor(num / 10);  
+// }
+// console.log("Total digits:", count);
+
+
