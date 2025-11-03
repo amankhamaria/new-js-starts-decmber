@@ -190,18 +190,38 @@ console.log("Total spaces:", count);
 
 //==============  4. Write a JavaScript program that finds the sum of all even digits (0, 2, 4, 6, 8) in a given number.
 
-let num = 1234567890;
+// let num = 1234567890;
+// let sum = 0;
+
+// for (let n = num; n > 0; n = Math.floor(n / 10)) {
+//   let digit = n % 10;
+
+//   if (digit % 2 === 0) {
+//     sum = sum + digit;
+//   }
+// }
+
+// console.log(sum);
+
+//==== Que 5. Check if a number is an Armstrong number (e.g., 153 → 1³ + 5³ + 3³ = 153).
+
+// Que 5. Check if a number is an Armstrong number
+
+let num = 159;
 let sum = 0;
+let temp = num;
 
-for (let n = num; n > 0; n = Math.floor(n / 10)) {
+for (let n = temp; n > 0; n = Math.floor(n / 10)) {
   let digit = n % 10;
-
-  if (digit % 2 === 0) {
-    sum = sum + digit;
-  }
+  sum = sum + (digit * digit * digit);
 }
 
-console.log(sum);
+if (sum === num) {
+  console.log(num + " is an Armstrong number");
+} else {
+  console.log(num + " is not an Armstrong number");
+}
+
 
 
 
