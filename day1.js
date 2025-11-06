@@ -114,23 +114,23 @@
 
 // ========= chech the prime number hai ya nahi =============
 
-//  for (let num = 1; num <= 100; num++) {
-//   let isPrime = true;
+ for (let num = 1; num <= 100; num++) {
+  let isPrime = true;
 
-//   if (num < 2) isPrime = false;
+  if (num < 2) isPrime = false;
 
-//   for (let i = 2; i < num; i++) {
-//     if (num % i === 0) {
-//       isPrime = false;
-//       break;
-//     }
-//   }
+  for (let i = 2; i < num; i++) {
+    if (num % i === 0) {
+      isPrime = false;
+      break;
+    }
+  }
 
-//   if (isPrime)
-//    {
-//     console.log(num);
-//   }
-// }
+  if (isPrime)
+   {
+    console.log(num);
+  }
+}
 
 // =============== print each digits of given number =====================
 
@@ -165,16 +165,16 @@
 
 // Que 2. Write a program that takes a string as input and removes all spaces (both between words and at ends).
 
-let str = "Hello  World from  JS";
-let count = 0;
+// let str = "Hello  World from  JS";
+// let count = 0;
 
-for (let i = 0; i < str.length; i++) {
-  if (str[i] === " ") {
-    count++;
-  }
-}
+// for (let i = 0; i < str.length; i++) {
+//   if (str[i] === " ") {
+//     count++;
+//   }
+// }
 
-console.log("Total spaces:", count);
+// console.log("Total spaces:", count);
 
 //===== Que 3. Write a program that counts how many digits are present in a given number.
 
@@ -207,20 +207,20 @@ console.log("Total spaces:", count);
 
 // Que 5. Check if a number is an Armstrong number
 
-let num = 159;
-let sum = 0;
-let temp = num;
+// let num = 159;
+// let sum = 0;
+// let temp = num;
 
-for (let n = temp; n > 0; n = Math.floor(n / 10)) {
-  let digit = n % 10;
-  sum = sum + (digit * digit * digit);
-}
+// for (let n = temp; n > 0; n = Math.floor(n / 10)) {
+//   let digit = n % 10;
+//   sum = sum + (digit * digit * digit);
+// }
 
-if (sum === num) {
-  console.log(num + " is an Armstrong number");
-} else {
-  console.log(num + " is not an Armstrong number");
-}
+// if (sum === num) {
+//   console.log(num + " is an Armstrong number");
+// } else {
+//   console.log(num + " is not an Armstrong number");
+// }
 
 
 
