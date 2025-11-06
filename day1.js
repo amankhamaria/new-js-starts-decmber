@@ -130,7 +130,7 @@
    {
     console.log(num);
   }
-}
+} 
 
 // =============== print each digits of given number =====================
 
