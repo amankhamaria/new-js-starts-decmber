@@ -114,23 +114,23 @@
 
 // ========= chech the prime number hai ya nahi =============
 
- for (let num = 1; num <= 100; num++) {
-  let isPrime = true;
+//  for (let num = 1; num <= 100; num++) {
+//   let isPrime = true;
 
-  if (num < 2) isPrime = false;
+//   if (num < 2) isPrime = false;
 
-  for (let i = 2; i < num; i++) {
-    if (num % i === 0) {
-      isPrime = false;
-      break;
-    }
-  }
+//   for (let i = 2; i < num; i++) {
+//     if (num % i === 0) {
+//       isPrime = false;
+//       break;
+//     }
+//   }
 
-  if (isPrime)
-   {
-    console.log(num);
-  }
-} 
+//   if (isPrime)
+//    {
+//     console.log(num);
+//   }
+// } 
 
 // =============== print each digits of given number =====================
 
@@ -221,6 +221,23 @@
 // } else {
 //   console.log(num + " is not an Armstrong number");
 // }
+
+
+
+let totalStairs = 21;
+let current = 0;
+let count = 0;
+
+for (; current < totalStairs; ) {
+  if (current + 3 >= totalStairs) {
+    current += 3;  
+  } else {
+    current += 2;  
+  }
+  count++; 
+}
+
+console.log(count);
 
 
 
