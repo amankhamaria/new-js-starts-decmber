@@ -130,7 +130,7 @@
 //    {
 //     console.log(num);
 //   }
-// } 
+// }
 
 // =============== print each digits of given number =====================
 
@@ -140,7 +140,7 @@
 // for (let i = str.length - 1; i >= 0; i--) {
 //   console.log(str[i]);
 // }
- 
+
 // =========== print the place value of given value 5271 ==========
 
 // let num = 5271;
@@ -155,13 +155,12 @@
 // let sum = 0;
 
 // while (num > 0) {
-//   let digit = num % 10; 
-//   sum = sum + digit;   
+//   let digit = num % 10;
+//   sum = sum + digit;
 //   num = Math.floor(num / 10);
 // }
 
 // console.log(sum);
-
 
 // Que 2. Write a program that takes a string as input and removes all spaces (both between words and at ends).
 
@@ -186,7 +185,6 @@
 // }
 
 // console.log(count);
-
 
 //==============  4. Write a JavaScript program that finds the sum of all even digits (0, 2, 4, 6, 8) in a given number.
 
@@ -222,25 +220,58 @@
 //   console.log(num + " is not an Armstrong number");
 // }
 
+// ============ 21 shidhi hai  ek bar me 3 shidhi chadhna hai or ek shidhi utrana hai que ========
 
+// let totalStairs = 21;
+// let current = 0;
+// let count = 0;
 
-let totalStairs = 21;
-let current = 0;
-let count = 0;
+// for (; current < totalStairs; ) {
+//   if (current + 3 >= totalStairs) {
+//     current += 3;
+//   } else {
+//     current += 2;
+//   }
+//   count++;
+// }
 
-for (; current < totalStairs; ) {
-  if (current + 3 >= totalStairs) {
-    current += 3;  
-  } else {
-    current += 2;  
+// console.log(count);
+
+// ============ 21 shidhi hai  ek bar me 3 shidhi chadhna hai or ek shidhi utrana hai que ========
+
+// let totalshidhi = 21;
+// let current = 0;
+// let count = 0;
+
+// for (; current < totalshidhi; ) {
+//   if (current + 3 >= totalshidhi) {
+//   } else {
+//     current += 2;
+//   }
+//   count++;
+// }
+// console.log(count);
+
+// ========== 2 ka table in function ================
+
+// function tableOfTwo() {
+//   for (let i = 1; i <= 10; i++) {
+//     console.log(`2 x ${i} = ${2 * i}`);
+//   }
+// }
+
+// tableOfTwo();
+
+//  ======================
+
+function power(num, esqure) {
+  let result = 1;
+
+  for (let i = 1; i <= esqure; i++) {
+    result = result * num;
   }
-  count++; 
+
+  console.log(`${num}^${esqure} = ${result}`);
 }
 
-console.log(count);
-
-
-
-
-
-
+power(2, 4);
