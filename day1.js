@@ -264,14 +264,103 @@
 
 //  ======================
 
-function power(num, esqure) {
-  let result = 1;
+// function power(num, esqure) {
+//   let result = 1;
 
-  for (let i = 1; i <= esqure; i++) {
-    result = result * num;
-  }
+//   for (let i = 1; i <= esqure; i++) {
+//     result = result * num;
+//   }
 
-  console.log(`${num}^${esqure} = ${result}`);
-}
+//   console.log(`${num}^${esqure} = ${result}`);
+// }
 
-power(2, 4);
+// power(2, 4);
+
+// ====================== new starts ==================
+
+// const color = "green";
+// if (color == "red") {
+//   console.log("stop");
+// } else if (color == "yellow") {
+//   console.log("ready");
+// } else if (color == "green") {
+//   console.log("go");
+// } else {
+//   console.log("no enter");
+// }
+
+// --------------------------------
+
+// const time = 12;
+// if (time >= 1 && time < 12) {
+//   console.log("good morning");
+// } else if (time > 12 && time < 16) {
+//   console.log("good afternoon");
+// } else if (time >= 16 && time < 19) {
+//   console.log("goodevening");
+// } else {
+//   console.log("good night");
+// }
+// // ----------------1 to 10 tak ginti print------------------------------
+// for (let i = 1; i <= 10; i = i + 1) {
+//   console.log(i);
+// }
+// ----------
+
+// for (let i = 2; i <= 20; i = i + 2) {
+//   console.log(i * 1);
+// }
+// --------- for loop
+// for (let num = 1; num <= 20; num = num + 1) {
+//   const remainder = num % 2;
+//   if (remainder === 0) {
+//     console.log(num);
+//   }
+// }
+
+// dddd--------ulta ginati print,-----------
+// for (let num = 10; (num = 1); num = num - 1) {
+//   console.log(num);
+// }
+
+// dddddddddddddd----------
+// const hindi = 70;
+// const english = 65;
+// const computer = 60;
+// const math = 55;
+// const science = 45;
+// const totalmarks = 500;
+
+// const totalobtainedmarks = hindi + english + computer + math + science;
+// {
+//   console.log("totalobtainedmarks");
+// }
+// ------------------------------------------------------------------
+// const num = 15647;
+// let count = 0;
+// for (let n = num; n > 0; ) {
+//   count = count + 1;
+//   n = Math.floor(n / 10);
+// }
+// console.log(count);
+// ---------------------------------------------------------------------
+// function multiply(a, b) {
+//   let result = 0;
+//   for (let i = 1; i <= b; i = i + 1) {
+//     result = result + a;
+//   }
+//   console.log(result);
+// }
+// multiply(3, 4);
+// -------------------=========================================
+// const num = 655647;
+// let count = 0;
+// for (let n = num; n > 0; ) {
+//   if (n % 10 == 5) {
+//     count = count + 1;
+//   }
+//   n = math.floor(n / 10);
+// }
+// console.log("count");
+
+//============
