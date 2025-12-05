@@ -439,26 +439,26 @@
 
 // ================== star print ==================
 
-let n = 4;
+// let n = 4;
 
-// upper
-for (let i = 1; i <= n; i++) {
-  let str = " ".repeat(n - i);
+// // upper
+// for (let i = 1; i <= n; i++) {
+//   let str = " ".repeat(n - i);
 
-  for (let j = 1; j <= 2 * i - 1; j++) {
-    if (j == 1 || j == 2 * i - 1) str += "*";
-    else str += " ";
-  }
-  console.log(str);
-}
+//   for (let j = 1; j <= 2 * i - 1; j++) {
+//     if (j == 1 || j == 2 * i - 1) str += "*";
+//     else str += " ";
+//   }
+//   console.log(str);
+// }
 
-// lower
-for (let i = n - 1; i >= 1; i--) {
-  let str = " ".repeat(n - i);
+// // lower
+// for (let i = n - 1; i >= 1; i--) {
+//   let str = " ".repeat(n - i);
 
-  for (let j = 1; j <= 2 * i - 1; j++) {
-    if (j == 1 || j == 2 * i - 1) str += "*";
-    else str += " ";
-  }
-  console.log(str);
-}
+//   for (let j = 1; j <= 2 * i - 1; j++) {
+//     if (j == 1 || j == 2 * i - 1) str += "*";
+//     else str += " ";
+//   }
+//   console.log(str);
+// }
