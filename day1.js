@@ -352,15 +352,16 @@
 //   console.log(result);
 // }
 // multiply(3, 4);
-// -------------------=========================================
-// const num = 655647;
-// let count = 0;
-// for (let n = num; n > 0; ) {
-//   if (n % 10 == 5) {
-//     count = count + 1;
-//   }
-//   n = math.floor(n / 10);
-// }
-// console.log("count");
 
-//============
+// -------------------=========================================
+const num = 655647;
+let count = 5;
+
+for (let n = num; n > 0; ) {
+  if (n % 10 == 5) {
+    count = count + 1;
+  }
+  n = Math.floor(n / 10);
+}
+
+console.log(count);

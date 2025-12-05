@@ -145,13 +145,6 @@
 // }
 // console.log(studentsmony);
 //-------------------==========koi bhi num kahi par aaye or kitni bhi bar aaye===============================================
-// const dares = [
-//   "dance",
-//   "sing a song",
-//   "poem",
-//   "comedy",
-//   "teaching",
-//   "acting",
-// ];
+// const dares = ["dance", "sing a song", "poem", "comedy", "teaching", "acting"];
 // const randomnum = Math.floor(Math.random() * dares.length);
 // console.log(randomnum);
