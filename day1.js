@@ -354,14 +354,111 @@
 // multiply(3, 4);
 
 // -------------------=========================================
-const num = 655647;
-let count = 5;
+// const num = 655647;
+// let count = 5;
 
-for (let n = num; n > 0; ) {
-  if (n % 10 == 5) {
-    count = count + 1;
+// for (let n = num; n > 0; ) {
+//   if (n % 10 == 5) {
+//     count = count + 1;
+//   }
+//   n = Math.floor(n / 10);
+// }
+
+// console.log(count);
+
+//================= star prins code =====================
+
+// let n = 5;
+
+// for (let i = 1; i <= n; i++) {
+//   let str = "";
+//   for (let j = 1; j <= i; j++) {
+//     str += "*";
+//   }
+//   console.log(str);
+// }
+
+// ============== reverse star print ======================
+
+// let n = 5;
+
+// for (let i = n; i >= 1; i--) {
+//   let str = "";
+//   for (let j = 1; j <= i; j++) {
+//     str += "*";
+//   }
+//   console.log(str);
+// }
+
+// ============= full star print ==============
+
+// let n = 5;
+
+// for (let i = 1; i <= n; i++) {
+//   let space = "";
+//   let stars = "";
+
+//   for (let s = 1; s <= n - i; s++) {
+//     space += " ";
+//   }
+
+//   for (let j = 1; j <= 2 * i - 1; j++) {
+//     stars += "*";
+//   }
+
+//   console.log(space + stars);
+// }
+
+// ================== star print in js ==========
+
+// let n = 5;
+
+// for (let i = 1; i <= n; i++) {
+//   let str = "";
+//   for (let j = 1; j <= n; j++) {
+//     if (i == 1 || i == n || j == 1 || j == n) {
+//       str += "*";
+//     } else {
+//       str += " ";
+//     }
+//   }
+//   console.log(str);
+// }
+
+// ============ star print 2  lower and upper star ==============
+
+// let n = 5;
+
+// for (let i = 1; i <= n; i++) {
+//   console.log(" ".repeat(n - i) + "*".repeat(2 * i - 1));
+// }
+
+// for (let i = n - 1; i >= 1; i--) {
+//   console.log(" ".repeat(n - i) + "*".repeat(2 * i - 1));
+// }
+
+// ================== star print ==================
+
+let n = 4;
+
+// upper
+for (let i = 1; i <= n; i++) {
+  let str = " ".repeat(n - i);
+
+  for (let j = 1; j <= 2 * i - 1; j++) {
+    if (j == 1 || j == 2 * i - 1) str += "*";
+    else str += " ";
   }
-  n = Math.floor(n / 10);
+  console.log(str);
 }
 
-console.log(count);
+// lower
+for (let i = n - 1; i >= 1; i--) {
+  let str = " ".repeat(n - i);
+
+  for (let j = 1; j <= 2 * i - 1; j++) {
+    if (j == 1 || j == 2 * i - 1) str += "*";
+    else str += " ";
+  }
+  console.log(str);
+}
