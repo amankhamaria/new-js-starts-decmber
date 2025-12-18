@@ -462,3 +462,8 @@
 //   }
 //   console.log(str);
 // }
+//================================================
+
+let name = "Aman";
+const age = 20;
+var city = "Delhi";
