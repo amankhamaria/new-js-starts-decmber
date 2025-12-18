@@ -464,6 +464,24 @@
 // }
 //================================================
 
-let name = "Aman";
-const age = 20;
-var city = "Delhi";
+// let name = "Aman";
+// const age = 20;
+// var city = "Delhi";
+
+//============= if else js questions =================
+
+// let age = 18;
+
+// if (age >= 18) {
+//   console.log("Eligible for vote");
+// } else {
+//   console.log("Not eligible");
+// }
+
+//============== while loop question ====
+
+let i = 1;
+while (i <= 5) {
+  console.log(i);
+  i++;
+}
