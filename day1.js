@@ -493,3 +493,11 @@ let user = { name: "Aman", age: 22 };
 for (let key in user) {
   console.log(key, user[key]);
 }
+
+// ================================
+
+for (let i = 1; i <= 10; i++) {
+  if (i % 2 === 0) {
+    console.log(i);
+  }
+}
