@@ -480,8 +480,16 @@
 
 //============== while loop question ====
 
-let i = 1;
-while (i <= 5) {
-  console.log(i);
-  i++;
+// let i = 1;
+// while (i <= 5) {
+//   console.log(i);
+//   i++;
+// }
+
+//=======================================
+
+let user = { name: "Aman", age: 22 };
+
+for (let key in user) {
+  console.log(key, user[key]);
 }
