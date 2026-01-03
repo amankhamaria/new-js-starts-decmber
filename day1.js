@@ -488,16 +488,48 @@
 
 //=======================================
 
-let user = { name: "Aman", age: 22 };
+// let user = { name: "Aman", age: 22 };
 
-for (let key in user) {
-  console.log(key, user[key]);
-}
+// for (let key in user) {
+//   console.log(key, user[key]);
+// }
 
 // ================================
 
-for (let i = 1; i <= 10; i++) {
-  if (i % 2 === 0) {
-    console.log(i);
-  }
+// for (let i = 1; i <= 10; i++) {
+//   if (i % 2 === 0) {
+//     console.log(i);
+//   }
+// }
+
+// =======================
+
+// console.log("A");
+
+// setTimeout(() => console.log("B"), 0);
+
+// Promise.resolve().then(() => console.log("C"));
+
+// console.log("D");
+
+// ================================ Deep vs Shallow Copy ===========
+
+let obj1 = { a: 1, b: { c: 2 } };
+let obj2 = { ...obj1 };
+
+obj2.b.c = 100;
+console.log(obj1.b.c);
+
+// ========== Memoization (Performance Question)========
+
+function memoize(fn) {
+  const cache = {};
+  return function (n) {
+    if (cache[n]) return cache[n];
+    cache[n] = fn(n);
+    return cache[n];
+  };
 }
+
+const square = memoize((n) => n * n);
+console.log(square(5));
