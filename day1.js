@@ -533,3 +533,22 @@ function memoize(fn) {
 
 const square = memoize((n) => n * n);
 console.log(square(5));
+
+// ============ Number positive ya negative check karo ===========
+
+let num = 4;
+
+if (num > 0) {
+  console.log("Positive number");
+} else {
+  console.log("Negative number");
+}
+
+// ============ Even ya Odd number==========
+let n = 7;
+
+if (n % 2 === 0) {
+  console.log("Even");
+} else {
+  console.log("Odd");
+}
