@@ -514,41 +514,51 @@
 
 // ================================ Deep vs Shallow Copy ===========
 
-let obj1 = { a: 1, b: { c: 2 } };
-let obj2 = { ...obj1 };
+// let obj1 = { a: 1, b: { c: 2 } };
+// let obj2 = { ...obj1 };
 
-obj2.b.c = 100;
-console.log(obj1.b.c);
+// obj2.b.c = 100;
+// console.log(obj1.b.c);
 
 // ========== Memoization (Performance Question)========
 
-function memoize(fn) {
-  const cache = {};
-  return function (n) {
-    if (cache[n]) return cache[n];
-    cache[n] = fn(n);
-    return cache[n];
-  };
-}
+// function memoize(fn) {
+//   const cache = {};
+//   return function (n) {
+//     if (cache[n]) return cache[n];
+//     cache[n] = fn(n);
+//     return cache[n];
+//   };
+// }
 
-const square = memoize((n) => n * n);
-console.log(square(5));
+// const square = memoize((n) => n * n);
+// console.log(square(5));
 
 // ============ Number positive ya negative check karo ===========
 
-let num = 4;
+// let num = 4;
 
-if (num > 0) {
-  console.log("Positive number");
-} else {
-  console.log("Negative number");
-}
+// if (num > 0) {
+//   console.log("Positive number");
+// } else {
+//   console.log("Negative number");
+// }
 
 // ============ Even ya Odd number==========
-let n = 7;
+// let n = 7;
 
-if (n % 2 === 0) {
-  console.log("Even");
+// if (n % 2 === 0) {
+//   console.log("Even");
+// } else {
+//   console.log("Odd");
+// }
+
+// =========== Vote dene ke liye eligible hai ya nahi ============
+
+let age = 17;
+
+if (age >= 18) {
+  console.log("Eligible for voting");
 } else {
-  console.log("Odd");
+  console.log("Not eligible");
 }
