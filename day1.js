@@ -555,10 +555,19 @@
 
 // =========== Vote dene ke liye eligible hai ya nahi ============
 
-let age = 17;
+// let age = 17;
 
-if (age >= 18) {
-  console.log("Eligible for voting");
-} else {
-  console.log("Not eligible");
+// if (age >= 18) {
+//   console.log("Eligible for voting");
+// } else {
+//   console.log("Not eligible");
+// }
+
+// ------------------array ka qustion hai dono------------------------
+let name = ["deepak", "aman", "veeru"];
+console.log(name);
+
+for (let i = 0; i < name.length; i = i + 1) {
+  name[i] = name[i] + " maurya";
+  console.log(name);
 }
