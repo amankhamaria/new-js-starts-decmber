@@ -571,3 +571,19 @@ for (let i = 0; i < name.length; i = i + 1) {
   name[i] = name[i] + " maurya";
   console.log(name);
 }
+
+// ======== एक प्रोग्राम बनाइए जो 1 से n तक के even numbers का sum निकाले। =================
+
+// let n = 50;
+
+// n = Number(n);
+
+// let sum = 0;
+
+// for (let i = 1; i <= n; i++) {
+//   if (i % 2 === 0) {
+//     sum = sum + i;
+//   }
+// }
+
+// console.log(sum);
