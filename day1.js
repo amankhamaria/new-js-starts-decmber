@@ -587,3 +587,9 @@ for (let i = 0; i < name.length; i = i + 1) {
 // }
 
 // console.log(sum);
+
+let fruits = ["Apple", "Banana", "Mango"];
+
+for (let item of fruits) {
+  console.log(item);
+}
