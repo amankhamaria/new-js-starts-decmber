@@ -564,13 +564,13 @@
 // }
 
 // ------------------array ka qustion hai dono------------------------
-let name = ["deepak", "aman", "veeru"];
-console.log(name);
+// let name = ["deepak", "aman", "veeru"];
+// console.log(name);
 
-for (let i = 0; i < name.length; i = i + 1) {
-  name[i] = name[i] + " maurya";
-  console.log(name);
-}
+// for (let i = 0; i < name.length; i = i + 1) {
+//   name[i] = name[i] + " maurya";
+//   console.log(name);
+// }
 
 // ======== एक प्रोग्राम बनाइए जो 1 से n तक के even numbers का sum निकाले। =================
 
@@ -588,8 +588,20 @@ for (let i = 0; i < name.length; i = i + 1) {
 
 // console.log(sum);
 
-let fruits = ["Apple", "Banana", "Mango"];
+// let fruits = ["Apple", "Banana", "Mango"];
 
-for (let item of fruits) {
-  console.log(item);
+// for (let item of fruits) {
+//   console.log(item);
+// }
+
+// Advanced Function Questions =============
+
+function calculate(a, b, operation) {
+  return operation(a, b);
 }
+
+function add(x, y) {
+  return x + y;
+}
+
+console.log(calculate(5, 3, add));
