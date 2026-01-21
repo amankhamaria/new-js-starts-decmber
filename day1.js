@@ -605,3 +605,21 @@ function add(x, y) {
 }
 
 console.log(calculate(5, 3, add));
+
+//================= new code questions array js ==============================
+
+// const name = ["ram", "shyam", "deepak", "mohan", "rohan"];
+// console.log(name);
+// name[2] = "akash";
+// console.log(name);
+// for (let i = 0; i < name.lenth; i = i + 1) {
+//   console.log(name[i]);
+// }
+// ------------------array ka qustion hai dono------------------------
+// let name = ["deepak", "aman", "veeru"];
+// console.log(name);
+
+// for (let i = 0; i < name.length; i = i + 1) {
+//   name[i] = name[i] + " maurya";
+//   console.log(name);
+// }
