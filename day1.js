@@ -622,4 +622,16 @@ console.log(calculate(5, 3, add));
 // for (let i = 0; i < name.length; i = i + 1) {
 //   name[i] = name[i] + " maurya";
 //   console.log(name);
+
 // }
+
+// -------------============================================================
+// const studentsmony = [12, 20, 2, 60, 600, 12, 30];
+// for (let i = 0; i < studentsmony.length; i = i + 1) {
+//   studentsmony[i] = studentsmony[i] + 2 * studentsmony[i];
+// }
+// console.log(studentsmony);
+//-------------------==========koi bhi num kahi par aaye or kitni bhi bar aaye===============================================
+// const dares = ["dance", "sing a song", "poem", "comedy", "teaching", "acting"];
+// const randomnum = Math.floor(Math.random() * dares.length);
+// console.log(randomnum);
