@@ -148,3 +148,21 @@
 // const dares = ["dance", "sing a song", "poem", "comedy", "teaching", "acting"];
 // const randomnum = Math.floor(Math.random() * dares.length);
 // console.log(randomnum);
+
+// --------------------------------
+
+// const time = 12;
+// if (time >= 1 && time < 12) {
+//   console.log("good morning");
+// } else if (time > 12 && time < 16) {
+//   console.log("good afternoon");
+// } else if (time >= 16 && time < 19) {
+//   console.log("goodevening");
+// } else {
+//   console.log("good night");
+// }
+// // ----------------1 to 10 tak ginti print------------------------------
+// for (let i = 1; i <= 10; i = i + 1) {
+//   console.log(i);
+// }
+// ----------
