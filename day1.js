@@ -635,3 +635,20 @@ console.log(calculate(5, 3, add));
 // const dares = ["dance", "sing a song", "poem", "comedy", "teaching", "acting"];
 // const randomnum = Math.floor(Math.random() * dares.length);
 // console.log(randomnum);
+
+// =============================
+
+for (let i = 1; i <= 5; i++) {
+  if (i === 3) continue;
+  console.log(i);
+}
+
+// ========================
+
+let arr = [10, 20, 30];
+let sum = 0;
+
+for (let i = 0; i < arr.length; i++) {
+  sum += arr[i];
+}
+console.log(sum);
