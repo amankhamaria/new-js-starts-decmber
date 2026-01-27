@@ -652,3 +652,26 @@ for (let i = 0; i < arr.length; i++) {
   sum += arr[i];
 }
 console.log(sum);
+
+// arrow function me kaise kaam karta hai?
+
+const obj = {
+  name: "Aman",
+  arrow: () => console.log(this.name),
+  normal() {
+    console.log(this.name);
+  },
+};
+
+obj.arrow(); // undefined
+obj.normal(); // Aman
+
+// Debounce function
+
+function debounce(fn, delay) {
+  let timer;
+  return (...args) => {
+    clearTimeout(timer);
+    timer = setTimeout(() => fn(...args), delay);
+  };
+}
